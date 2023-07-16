@@ -1,0 +1,13 @@
+1. Write a blog on the difference between Document and Window objects
+
+
+           Document             |          Window
+----------------------------------------------------------------------                              
+ * It is loaded inside the window|   *It is the very first object 
+                                 |    that is loaded in the browser.
+                                 |
+ * It is the object of window    |   *It is the object of the browser. 
+ property.                       |  
+----------------------------------------------------------------------                                 
+                                 
+                                 

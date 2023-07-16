@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>XMLHTTPRequest Example</title>
+    </head>
+    <body>
+        <script>
+            var xhr = XMLHttpRequest();
+            var method = "GET";
+            var url = "https://restcountries.com/v3.1/all";
+            xhr.open(method,url);
+            xhr.onload = function () {
+                if (xhr.status === 200) {
+                   var total = [url];
+                   var total1 = total.filter (
+                    function(population, index) {
+                        return total.indexof (population) ===
+                        total.lastIndexOf(population)
+                    }
+                   );
+                   console.log(total1);
+                } else {
+                    console.log("Request failed" , xhr.status);
+                }
+
+            };
+            xhr.send();
+        </script>
+    </body>
+</html>
