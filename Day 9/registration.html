@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        label { color: rgb(42, 165, 73);
+        font-size: xx-large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    </style>
+    <link rel="stylesheet" type="text/css" href="register.css"/>
+</head>
+<body>
+    <h1 style="color: brown; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: larger;">Registration Form</h1>
+    <p>This is some styled sheets</p>
+    <form action="/server" method = "post" >
+        <label for = "name">Name:</label>
+        <input id = "name" type="text" name="name" />
+        <br>
+        <br>
+        <label for = "email">Email:</label>
+        <input id = "email" type="text" name = "email" />
+        <br>
+        <br>
+        <label for = "password">Password:</label>
+        <input type = "password" id="password" name = "password" />
+        <br>
+        <br>
+        <label for = "password">Confirm password:</label>
+        <input type = "password" id="password" name = "password" />
+        <br>
+        <br>
+        <label class="pwd" for="gender" >Gender:</label>
+        <input="gender" name = "gender">
+        <input type="radio">Male
+         <input type="radio">Female
+        <input type="radio">Others
+   
+    <br>
+    <br>
+    <label for = "date">BirthDate:</label>
+    <input type="date" id="date" name="date">
+    <br>
+    <br>
+    <label for = "newsletter">Subscribe to Newsletter</label>
+    <input type="range" id ="newsletter" name = "newsletter">
+          
+
+        <br>
+        <br>
+        <label for="submit"></label>
+        <input type="submit" id="submit" name="submit">
+        <button>cancel</button>
+        
+        
+
+
+    </form> 
+    
+</body>
+</html>

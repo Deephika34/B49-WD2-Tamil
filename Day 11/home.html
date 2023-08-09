@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dot{
+            background-color: rgb(4, 41, 41);
+        }
+        .container{
+            width: 200px;
+            height: 200px;
+            border: 2px solid;
+            margin-bottom: 10px;
+            background: radial-gradient(green,yellowgreen);
+
+        }
+        .hidden{
+            overflow: hidden;
+        }
+        .scroll{
+            overflow: scroll;
+        }
+        .auto{
+            overflow: auto;
+        }
+        .visible{
+            overflow: visible;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: darkblue;border: 2px solid black;width: 400px; padding: 20px; background-color: brown;">OVERFLOW DOCUMENT</h1>
+    <div class="dot">
+        <div class="container hidden">Content with hidden overflow Content with hidden overflow
+             Content with hidden overflow
+             Content with hidden overflow
+             Content with hidden overflow
+             Content with hidden overflow</div>
+        <div class="container scroll">Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+        </div>
+        <div class="container auto">Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+        </div>
+        <div class="container visible">Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+            Content with hidden overflow
+        </div>
+        <div class="container auto">Content with hidden overflow</div>
+    </div>
+</body>
+</html>

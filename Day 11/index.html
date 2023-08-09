@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posiition</title>
+</head>
+<style>
+    .box {
+       width: 100px;
+       height: 75px;
+       border: 2px solid black;
+       font-size: 20px;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+    margin-bottom: 20px;
+
+    background-color: darkslategray;
+    }
+
+    .static-box{
+        position:static ;
+        top: 20px;
+        left:20px;
+
+    }
+    .relative-box{
+        position: relative;
+        top: 10px;
+        
+    }
+    .sticky-box{
+        position:sticky;
+        top: 20px;
+    
+        
+    }
+    .absolute-box{
+        position:absolute;
+        top: 400px;
+        
+    }
+    .fixed-box{
+        position:fixed;
+        top: 500px;
+        
+    }
+    .gradient {
+        background: linear-gradient(to left,rgb(31, 2, 48),rgb(128, 52, 111))
+    
+  
+  }
+</style>
+<body class="gradient">
+    <h1 style="color: rgb(65, 5, 55); font-size: xx-large;font-family:sans-serif;
+    text-align: center;">CSS POSITION DEMO</h1>
+<div class="box static-box"> Static box</div>
+<div class="box relative-box"> Relative box</div>
+<div class="box sticky-box"> Sticky box</div>
+<div class="box absolute-box"> Absolute box</div>
+<div class="box fixed-box">Fixed box</div>
+
+</body>
+</html>

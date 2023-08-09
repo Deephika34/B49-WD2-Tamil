@@ -1,0 +1,22 @@
+.container {
+  background-color: aqua;
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+ 
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.form-group {
+  margin-bottom: 20px;
+
+  
+  
+}
+.result {
+  margin-top: 20px;
+  font-weight: bold;
+  
+}
+
+  
