@@ -1,0 +1,10 @@
+.container jumbotron {
+    margin: auto;
+}
+p {
+    text-align: center;
+}
+span{
+    text-align: center;
+     font-size: large;
+}
