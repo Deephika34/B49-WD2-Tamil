@@ -1,0 +1,16 @@
+#root {
+  width: 100%;
+  height: 100vh;
+   margin: 0 ;
+   padding: 0;
+   text-align: center;
+ }
+ .body{
+   display: flex;
+   justify-content: space-between;
+ }
+ 
+ .input{
+   display: flex;
+   justify-content: space-around;
+ }
