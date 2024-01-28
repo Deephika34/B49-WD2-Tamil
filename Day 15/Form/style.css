@@ -1,0 +1,80 @@
+.label{
+    font-weight: bolder;
+}
+
+#first-name{
+    border:2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px;
+    background-color:rgb(135, 244, 244);
+}
+#last-name{
+    border:2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px;
+    background-color:rgb(135, 244, 244);
+}
+#address{
+    border:2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px;
+    background-color:rgb(135, 244, 244);
+}
+#pincode{
+    border:2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px;
+    background-color:rgb(135, 244, 244);
+}
+#gender{
+    border:2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px;
+    background-color:rgb(135, 244, 244);
+}
+
+#food{
+    border:2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px;
+    background-color:rgb(135, 244, 244);
+}
+#state{
+    border:2px solid black;
+     border-radius: 10px;
+     box-shadow: 2px 2px 2px 2px;
+     background-color:rgb(135, 244, 244);
+}
+#country{
+    border:2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px;
+    background-color:rgb(135, 244, 244);
+}
+#submit{
+    border:2px solid black;
+    border-radius: 10px;
+    margin-left: 8%;
+    background-color:hotpink;
+    box-shadow: 2px 2px 2px 2px;
+   
+}
+#form{
+    padding:20px;
+    
+}
+table{
+    text-align: center;
+   width:60%;
+border: 2px solid black;
+margin-bottom:100px;
+border-collapse:collapse!important;
+}
+
+td,th {
+  border: 1px solid black!important;
+  padding: 5px 10px;
+  border-collapse:collapse!important;
+
+ 
+}
